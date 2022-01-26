@@ -28,4 +28,4 @@ if ($('#newpassword').attr('data-passwordStrengthForcer_AllGood') != '1'){
         $('#newpassword').focus();
         return false;
     }
-    ```
+```
