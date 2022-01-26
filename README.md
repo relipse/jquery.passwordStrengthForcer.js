@@ -20,3 +20,12 @@ $('#newpassword').passwordStrengthForcer( {
 });
 ```
 ![Alt text](https://usercontent.irccloud-cdn.com/file/qJ5USDra/passwordStrengthForcer "Example")
+
+On Submit
+```
+if ($('#newpassword').attr('data-passwordStrengthForcer_AllGood') != '1'){
+        alert("New password does not match complexity requirements");
+        $('#newpassword').focus();
+        return false;
+    }
+    ```
