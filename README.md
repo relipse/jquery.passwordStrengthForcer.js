@@ -1,6 +1,12 @@
 # jquery.passwordStrengthForcer.js
 Javascript jQuery Password Strength Forcer plugin
 
+Include jQuery and passwordStrengthForcer plugin
+```
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.passwordStrengthForcer.js"></script>
+```
+
 ```
 $('#newpassword').passwordStrengthForcer( {
     minlength: 8,
