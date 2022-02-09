@@ -57,7 +57,7 @@
             if (numdigits >= settings.numdigitsrequired){
                 stats.digitsgood = true;
             }
-            var numspecial = (val.match(/[!@#$%^&*()_+\-={}\[\]\\|]/g) || '').length;
+            var numspecial = (val.match(/[:;<>?\/!@#$%^&*()_+\-={}\[\]\\|]/g) || '').length;
             if (numspecial >= settings.numspecialrequired){
                 stats.specialgood = true;
             }
