@@ -1,8 +1,5 @@
 (function($) {
     $.fn.passwordStrengthForcer = function(options) {
-        if (options === 'pass'){
-
-        }
         if (this.attr('type') != 'password'){
             alert("Not a type=\"password\" field");
             return false;
